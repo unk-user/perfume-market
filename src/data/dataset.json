@@ -1,0 +1,453 @@
+[
+  {
+    "name": "Sauvage Eau de Toilette",
+    "category": "men",
+    "brand": "Dior",
+    "price": "$120.00",
+    "description": "A radically fresh composition, Dior Sauvage Eau de Toilette opens with radiant top notes of Calabrian Bergamot, before Amberwood unleashes its powerfully woody trail. A Sauvage cologne for men inspired by wide-open spaces under a blue sky that dominates a white-hot desert landscape.",
+    "composition": "\"To create Sauvage, I used man as my starting point. A strong and unmistakable masculinity. Like the image of a man who transcends time and fashion.\"- François Demachy, Dior Perfumer-Creator",
+    "family": "Fresh & Woody",
+    "id": "fccb6f7f-e4b4-4c87-ae68-b1aef39acdbe"
+  },
+  {
+    "name": "Guilty Pour Homme Eau de Toilette",
+    "category": "men",
+    "brand": "Gucci",
+    "price": "$99.00",
+    "description": "Breaking the rules of traditional men's fragrance-making, Gucci Guilty Pour Homme Eau de Toilette for men opens up on sparkling Italian Lemon while French Lavender vibrates in the heart to fall in the deep notes of Patchouli.",
+    "composition": "Aromatic",
+    "family": "Aromatic Fougère",
+    "id": "e5fc73f4-5c21-4a38-8f36-ff678007ac30"
+  },
+  {
+    "name": "BLEU DE CHANEL Eau de Parfum Spray",
+    "category": "men",
+    "brand": "CHANEL",
+    "price": "$157.00",
+    "description": "Fresh, clean and profoundly sensual, BLEU DE CHANEL Eau de Parfum is a woody, aromatic fragrance that reveals the spirit of a man who chooses his own destiny with independence and determination - a man who defies convention. Unexpected and undeniably bold.",
+    "composition": "The fragrance features a fresh citrus accord followed by ambery Cedar notes.",
+    "family": "Woody",
+    "id": "42bb85c3-7fee-4b01-8097-508111562244"
+  },
+  {
+    "name": "Y Eau de Parfum",
+    "category": "men",
+    "brand": "Yves Saint Laurent",
+    "price": "$155.00",
+    "description": "Yves Saint Laurent Y Eau de Parfum is an intense and sophisticated men's cologne with bold notes of bergamot, ginger, sage, and apple accord.",
+    "composition": "Y Eau de Parfum by Yves Saint Laurent Beaute is a bold men's fragrance with a unique take on the iconic Yves Saint Laurent \"white t-shirt and black jacket\".",
+    "family": "Woody Citrus",
+    "id": "66faede1-1060-47aa-97cc-c918b45c56f1"
+  },
+  {
+    "name": "Sauvage Eau de Parfum",
+    "category": "men",
+    "brand": "Dior",
+    "price": "$145.00",
+    "description": "Dior Sauvage Eau de Parfum exudes sensual and mysterious facets. Calabrian Bergamot adds spicy notes for fullness and sensuality, as Nutmeg is wrapped in smoky accents of Vanilla Absolute. A Sauvage cologne for men inspired by twilight in the desert, the moment nature awakes, setting the sky ablaze.",
+    "composition": "I didn't create Eau de Parfum Sauvage by working on power. Its signature is already very identifiable. It was not a matter of exaggerating or saturating the composition. I was striving more to enrich each of the dominant notes to give it a new color.- François Demachy, Dior Perfumer-Creator",
+    "family": "Citrus & Woods",
+    "id": "cad514f7-eb6e-4bda-bf26-5314d3dccaa0"
+  },
+  {
+    "name": "MYSLF Eau de Parfum",
+    "category": "men",
+    "brand": "Yves Saint Laurent",
+    "price": "$125.00",
+    "description": "MYSLF Eau De Parfum is a refillable woody floral fragrance by YSL Beauty with a unique, long-lasting trail of modernity. A statement of modern Masculinity to celebrate your true self. Unapologetically. Proudly. My scent, MYSLF.",
+    "composition": "A YSL silhouette in a bottle. Luxurious and timeless, with a couture black lacquer finish and the iconic Yves Saint Laurent Cassandre logo embedded directly in the glass.",
+    "family": "Woody",
+    "id": "b0913ee5-757c-451f-ae9b-61f5aae809f3"
+  },
+  {
+    "name": "Uomo Born In Roma Eau de Toilette",
+    "category": "men",
+    "brand": "Valentino",
+    "price": "$125.00",
+    "description": "Valentino Uomo Born In Roma Eau de Toilette is a modern aromatic vetiver fragrance. Aromatic sage and smoked vetiver give the classic Valentino couture signature, which is shaken by a cool vibrating facet of mineral salt and spicy ginger to give the fragrance an unmistakable edge.",
+    "composition": "A modern, aromatic Eau de Toilette for men.",
+    "family": "Woody & Earthy",
+    "id": "6b171a5e-e054-4a10-8b22-27edbcc504ea"
+  },
+  {
+    "name": "Guilty Parfum Pour Homme",
+    "category": "men",
+    "brand": "Gucci",
+    "price": "$150.00",
+    "description": "A woody aromatic fragrance, Gucci Guilty Pour Homme Parfum for Men opens up with notes of French Lavender, magnified at the heart with the deep ambery signature nuance of Cistus, combined with the mysterious elegance of Patchouli.",
+    "composition": "Ambery",
+    "family": "Ambery Floral",
+    "id": "e2fb1a52-2cfa-4f0d-a8e3-0faeddfbfb67"
+  },
+  {
+    "name": "Uomo Born in Roma Intense Eau de Parfum",
+    "category": "men",
+    "brand": "Valentino",
+    "price": "$140.00",
+    "description": "Valentino Uomo Born in Roma Eau de Parfum Intense men's fragrance is a seductive ambery fougère, mixing lavandin and vanilla infusion into a hypnotic aura to glorify magnificent personalities.",
+    "composition": "Uomo Born In Roma Intense Eau de Parfum aims at exalting your magnificent personality, celebrating a night in the eternal city.",
+    "family": "Fougere Ambery",
+    "id": "ba4dc543-c543-4b21-b3a9-1e4e608223b2"
+  },
+  {
+    "name": "Sauvage Elixir",
+    "category": "men",
+    "brand": "Dior",
+    "price": "$250.00",
+    "description": "Sauvage Elixir rewrites the rules of men's perfume at Dior by pushing the boundaries of extreme concentration. Stretched to their limits, the Citrus, Wood and Spice notes of the fragrance express an exuberance that results in the unexpected signature trail of Dior Sauvage Elixir.",
+    "composition": "The perfume's iconic freshness unleashes a captivating trail that vibrates with notes of Grapefruit, organic AOP Lavender, Spices and rich Woods.",
+    "family": "Fresh",
+    "id": "cf3dba5d-08c1-4ad7-8446-2dff9595f42e"
+  },
+  {
+    "name": "Le Male Le Parfum",
+    "category": "men",
+    "brand": "Jean Paul Gaultier",
+    "price": "$142.00",
+    "description": "Set course for Le Male Le Parfum, the Jean Paul Gaultier for him! In a black and gold officer's jacket, this intense eau de parfum takes the helm of the Le Male fragrance line with style and intensity and elegance, with a wooded warm & spicy trail in its wake.",
+    "composition": "Woody",
+    "family": "Spicy Woody",
+    "id": "86c6525f-1591-4670-90e2-d61d943b6123"
+  },
+  {
+    "name": "Acqua di Giò Eau de Toilette",
+    "category": "men",
+    "brand": "ARMANI",
+    "price": "$115.00",
+    "description": "Armani Acqua di Giò Eau de Toilette is a light, aquatic men's cologne that captures the pure freshness and warmth of the Mediterranean Sea.",
+    "composition": "The ultimate refreshing and clean men's cologne, Acqua di Giò opens with a splash of marine fragrance, Calabrian bergamot, neroli, and green tangerine.",
+    "family": "Fresh",
+    "id": "f9b9fda1-a538-4437-aed5-b63165557546"
+  },
+  {
+    "name": "The Most Wanted Parfum",
+    "category": "men",
+    "brand": "Azzaro",
+    "price": "$105.00",
+    "description": "Fiery. Intense. Spicy. The Most Wanted Parfum by Azzaro is a spicy cologne for men that invites you to release your burning energy like never before.",
+    "composition": "With Azzaro The Most Wanted Parfum, let's flip the coin and experience long-lasting intensity beyond words.",
+    "family": "Spicy Fougere",
+    "id": "20183c61-7eca-4807-90c4-ddd181787885"
+  },
+  {
+    "name": "The Most Wanted Eau de Parfum Intense",
+    "category": "men",
+    "brand": "Azzaro",
+    "price": "$100.00",
+    "description": "Azzaro The Most Wanted Eau de Parfum Intense; a long lasting men's cologne featuring vibrant cardamom, addictive toffee accord, and a masculine trail of amber wood.",
+    "composition": "A woody cologne for the seductive and daring man who lives to play the game of life.",
+    "family": "Fougere",
+    "id": "4c3627d2-adec-40ec-bd09-24a415b11f2b"
+  },
+  {
+    "name": "Guilty Black Pour Homme Eau de Toilette",
+    "category": "men",
+    "brand": "Gucci",
+    "price": "$99.00",
+    "description": "Gucci Guilty Black Pour Homme is a daring aromatique fougere, inviting you to indulge in your deepest desires.",
+    "composition": "Aromatic",
+    "family": "Aromatic Fougère",
+    "id": "70decf46-0db9-4367-bb88-a3b157c0d280"
+  },
+  {
+    "name": "Bad Boy Cobalt Eau de Parfum",
+    "category": "men",
+    "brand": "Carolina Herrera",
+    "price": "$111.00",
+    "description": "Carolina Herrera Bad Boy Cobalt Eau de Parfum is an energizing fragrance of contrasts. Pink Pepper top notes offer a fresh opening, enhanced by a Geranium heart. Truffle Accord base are invigorated with smoky Oakwood and infused with Vetiver and sexy Cedarwood.",
+    "composition": "Warm & Spicy",
+    "family": "Woody Spices",
+    "id": "48965bb4-06d9-45ea-a125-20266b68a1ca"
+  },
+  {
+    "name": "Eros Eau de Toilette",
+    "category": "men",
+    "brand": "Versace",
+    "price": "$79.00",
+    "description": "Eros is the Greek God of love able to make people fall in love. A symbol of love, passion, desire and beauty. Versace Eros Eau de Toilette is a fragrance that interprets sublime masculinity.",
+    "composition": "Aromatic",
+    "family": "Oriental",
+    "id": "fb018f6a-b8b0-4c4a-9e4e-45b385e8e323"
+  },
+  {
+    "name": "Light Blue Pour Homme Eau de Toilette",
+    "category": "men",
+    "brand": "Dolce&Gabbana",
+    "price": "$65.00",
+    "description": "Dolce&Gabbana Light Blue Pour Homme Eau de Toilette is the quintessence of joy of life and seduction, capturing the energy of the beautiful and sunny Mediterranean sea.",
+    "composition": "Fresh",
+    "family": "Woody Spicy",
+    "id": "fb1d7633-dfff-4a3a-9a93-6734547c38b7"
+  },
+  {
+    "name": "Sauvage Parfum",
+    "category": "men",
+    "brand": "Dior",
+    "price": "$180.00",
+    "description": "Dior Sauvage Parfum is a highly concentrated interpretation, a perfume for men in which the extreme freshness of Mandarin melds with warm tones of Tonka Bean and Sandalwood. A cologne for men inspired by expanses of wilderness, a blue-tinged night sky, and the aromas of a crackling fire in the air.",
+    "composition": "\"For Sauvage Parfum, I imagined the impact when intense freshness meets smooth depth. I maintained the powerful soul of Sauvage by giving it nocturnal accents, an animal attraction and rounder facets.\" -- François Demachy, Dior Perfumer-Creator",
+    "family": "Citrus & Woods",
+    "id": "031c52bf-e968-4cf4-bbf0-699ff5741e25"
+  },
+  {
+    "name": "1 Million Eau de Toliette",
+    "category": "men",
+    "brand": "Rabanne",
+    "price": "$94.00",
+    "description": "Rabanne 1 Million Eau de Toilette is a spicy leathery scent that evokes fantasy and desire, arouses every envy and exudes a magnetic confidence.",
+    "composition": "Spicy Leather",
+    "family": "Top - blood mandarin, peppermint",
+    "id": "5444b29f-23d0-4f2d-acbd-98f3360ce754"
+  },
+  {
+    "name": "Donna Born In Roma Eau de Parfum",
+    "category": "women",
+    "brand": "Valentino",
+    "price": "$165.00",
+    "description": "Valentino Donna Born In Roma Eau de Parfum is a modern haute couture floriental. Three qualities of jasmine bring a luxurious femininity that is blended with vanilla bourbon, the most expensive extract in the world.",
+    "details": {
+      "Features": "Valentino Donna Born In Roma Eau de Parfum is a modern haute couture floriental vanilla perfume.The perfume bottle is designed with the iconic Valentino stud, the signature of Valentino Couture, which is inspired by Roma architecture.Three qualities of jasmine bring a luxurious femininity that is blended with vanilla bourbon, the most expensive extract in the world. This is twisted with radiant trio of modern wood, giving an edgy touch reminiscent of Rome street culture.",
+      "Fragrance Family": "Warm Floral",
+      "Key Notes": "Middle - jasmine grandiflorum absoluteTop - blackcurrantBase - bourbon vanilla"
+    },
+    "id": "07124cdd-d325-4ded-95d0-93a443e89a49"
+  },
+  {
+    "name": "Eilish Eau de Parfum",
+    "category": "women",
+    "brand": "Billie Eilish",
+    "price": "$62.00",
+    "description": "Eilish Eau de Parfum is a captivating Amber Gourmand fragrance featuring notes of sugared petals, creamy vanilla, and warm musks.",
+    "details": {
+      "Features": "Paraben FreeBiodegradable Cello WrapCarton made with 100% Wind Energy & EnvirofoilClean IngredientsVegan",
+      "Fragrance Family": "Amber Gourmand",
+      "Key Notes": "Middle - creamy vanilla, soft spices, cocoaBase - sleek woods, warm musks, tonka beansTop - sugared petals, mandarin, warm berries"
+    },
+    "id": "1a964677-0db0-49f9-8181-bea266beb9b4"
+  },
+  {
+    "name": "Black Opium Eau de Parfum",
+    "category": "women",
+    "brand": "Yves Saint Laurent",
+    "price": "$160.00",
+    "description": "Yves Saint Laurent Black Opium Eau de Parfum is a seductively intoxicating warm and spicy women's fragrance with notes of coffee, vanilla, and white flower.",
+    "details": {
+      "Features": "The opening notes of adrenaline-rich coffee and the sweet sensuality of vanilla recline into the softness of white flowers for a modern, young, addictive women's floral perfume with a seductively warm twist.YSL Black Opium is a long-lasting gourmand perfume for women with a combination of black coffee and white flowers to create a sensuous perfume with an edge.",
+      "Fragrance Family": "Warm & SpicySweet Gourmand",
+      "Key Notes": "Top - coffeeMiddle - white flowersBase - vanilla"
+    },
+    "id": "c3449df3-b9d8-4a2c-96b6-d8259eb3316a"
+  },
+  {
+    "name": "Cloud Pink Eau de Parfum",
+    "category": "women",
+    "brand": "Ariana Grande",
+    "price": "$68.00",
+    "description": "Empowering and optimistic, the Ariana Grande Cloud Pink fragrance is inspired by a confidence that reveals both beauty and strength, no matter the storm.",
+    "details": {
+      "Features": "Cruelty Free",
+      "Fragrance Family": "Warm & Spicy",
+      "Key Notes": "Middle - vanilla orchid coconut water blush ambretteTop - pink pineapple dragon fruit berriesBase - magenta moss amber woods musk praline"
+    },
+    "id": "e35da780-f03f-48f0-8c75-c0fbcb853720"
+  },
+  {
+    "name": "Cloud Eau de Parfum",
+    "category": "women",
+    "brand": "Ariana Grande",
+    "price": "$65.00",
+    "description": "Ariana Grande Cloud Eau de Parfum is an uplifting fragrance. Inspiring. Dreamy. Playful.",
+    "details": {
+      "Fragrance Family": "Warm & Spicy",
+      "Scent Type": "Gourmand",
+      "Key Notes": "Middle - crème de coconut, indulgent praline, vanilla orchidBase - sensual musks, creamy blonde woodsTop - lavender blossom, juicy pear, bergamot"
+    },
+    "id": "f9d467dd-9cd9-4d6d-9206-2d6770e92b59"
+  },
+  {
+    "name": "Good Girl Blush Eau de Parfum",
+    "category": "women",
+    "brand": "Carolina Herrera",
+    "price": "$165.00",
+    "description": "Good Girl Blush Eau de Parfum is a fresh, floral explosion of femininity housed in a delicate powdery blush pastel-pink stiletto. This radiant re-invention of the iconic Good Girl scent reveals the multifaceted nature of modern womanhood with a double dose of sensual Vanilla and exotic Ylang Ylang.",
+    "details": {
+      "Fragrance Family": "Floral",
+      "Key Notes": "Top - bergamot mandarinMiddle - ylang ylangBase - vanilla absolute tonka bean"
+    },
+    "id": "45705df2-0332-4e81-988f-3bb54b5f8d6f"
+  },
+  {
+    "name": "COCO MADEMOISELLE Eau de Parfum Spray",
+    "category": "women",
+    "brand": "CHANEL",
+    "price": "$172.00",
+    "description": "COCO MADEMOISELLE Eau de Parfum is an irresistibly sexy and spirited, sparkling oriental fragrance that recalls a daring young Coco Chanel.",
+    "details": {
+      "Composition": "The scent finally unfurls with the vibrant accents of Patchouli and Vetiver.A clear and sensual heart reveals the transparent accords of Jasmine and May Rose.Sparks of fresh and vibrant Orange immediately awaken the senses.",
+      "Fragrance Family": "Floral",
+      "Key Notes": "JasmineOrange"
+    },
+    "id": "b06c8d56-ef7e-4304-beb0-f7bc8ff49620"
+  },
+  {
+    "name": "Burberry Goddess Eau de Parfum",
+    "category": "women",
+    "brand": "Burberry",
+    "price": "$168.00",
+    "description": "The power within. Burberry Goddess tells a story of self-discovery. The new campaign follows Emma Mackey and a pride of lionesses. Radiating confidence, strength, and kindness, Emma embodies the spirit of a Burberry Goddess Eau de Parfum.",
+    "details": {
+      "Features": "Burberry Goddess Eau de Parfum is encased in an elegant, square-shaped bottle.Pale pink packaging adorned with a gold medallion reference the brand’s rich heritage.This unique gourmand fragrance is made with a vegan formula led by a powerful trio of vanillas.",
+      "Fragrance Family": "Ambery",
+      "Key Notes": "On top, a vanilla infusion with woody tonalitiesAt the heart a vanilla caviar with a rich sweetnessAt the base a vanilla absolute enriched with luminous lavender"
+    },
+    "id": "ce5b2ad8-8ac4-4767-9509-0c160843d11b"
+  },
+  {
+    "name": "Vanilla Musk Fragrance Oil",
+    "category": "women",
+    "brand": "Nemat",
+    "price": "$20.99",
+    "description": "The Vanilla Musk Fragrance Oil from Nemat is a sweet gourmand scent which lingers on throughout the day - one drop goes a long way. This fragrance can be described as sweet and enticing, with vanilla as the central note supported by musky undertones.",
+    "details": {
+      "Features": "Cruelty-FreeVeganClean IngredientsSustainable Packaging",
+      "Formulated Without": "GlycolsPhthalatesParabensAlcohol"
+    },
+    "id": "f6aa399f-2ad5-4421-993f-31c39bb31d4f"
+  },
+  {
+    "name": "Miss Dior Eau de Parfum",
+    "category": "women",
+    "brand": "Dior",
+    "price": "$165.00",
+    "description": "Miss Dior's Eau de Parfum is a couture dream - a multi-colored fragrance composition in a reinvented bottle adorned by an exceptional bow.",
+    "details": {
+      "Composition": "Alive with notes of Grasse Rose, Peony, Iris and Lily-of-the-Valley, the new Miss Dior perfume for women sparkles with fresh, floral notes.A dazzling bouquet of countless flowers in endless colors, Miss Dior Eau de Parfum captures the eternally optimistic essence of love.",
+      "Fragrance Family": "Floral",
+      "Key Notes": "PeonyCentifolia RoseLily-of-the-Valley"
+    },
+    "id": "4b29888c-93dd-4c43-8cac-f34fd7c47839"
+  },
+  {
+    "name": "Cloud Trio Coffret Set",
+    "category": "women",
+    "brand": "Ariana Grande",
+    "price": "$32.00",
+    "description": "Indulge in this dreamy, must-have Ariana Grande Cloud set: A gorgeous deluxe mini trio of the irresistible Cloud, Cloud Intense, and NEW Cloud Pink fragrances.",
+    "details": {
+      "Includes": "Cloud Pink deluxe mini parfum (0.25 oz)Cloud deluxe mini parfum (0.25 oz)Cloud 2.0 Intense deluxe mini edp (0.25 oz)"
+    },
+    "id": "127b3d17-6ee7-4282-b392-e0cd38aa4981"
+  },
+  {
+    "name": "Her Eau de Parfum",
+    "category": "women",
+    "brand": "Burberry",
+    "price": "$168.00",
+    "description": "Burberry Her Eau de Parfum for Women is an artful blend of berries elevated by spirited jasmine and violet, and smoothed out with amber and musk. A multi-faceted, magnetic fruity gourmand, and the scent of freedom.",
+    "details": {
+      "Fragrance Family": "Gourmand",
+      "Scent Type": "Fruity Gourmand",
+      "Key Notes": "Top - red and dark berriesMiddle - floral with a scent of jasmineBase - sensual musk-amber"
+    },
+    "id": "8226b200-008f-466f-bd5f-1ad964e6ba0a"
+  },
+  {
+    "name": "CHANCE EAU TENDRE Eau de Parfum Spray",
+    "category": "women",
+    "brand": "CHANEL",
+    "price": "$172.00",
+    "description": "An enhanced interpretation of the unexpected floral-fruity fragrance, CHANEL CHANCE EAU TENDRE Eau de Parfum sweeps you into a whirlwind of tenderness.",
+    "details": {
+      "Composition": "A constellation of enveloping notes of jasmine absolute and rose essence dazzles with an intoxicatingly soft and enveloping trail for a radiant and feminine scent.",
+      "Fragrance Family": "Floral",
+      "Key Notes": "GrapefruitRose Accord"
+    },
+    "id": "d77ececc-5ed9-4801-952f-df789fdf2374"
+  },
+  {
+    "name": "Paradoxe Eau de Parfum",
+    "category": "women",
+    "brand": "Prada",
+    "price": "$165.00",
+    "description": "Prada Paradoxe Eau de Parfum, a floral women's fragrance, is an invitation to explore and express the paradoxical multi-dimensionality of women. The celebration of being never the same, always yourself.",
+    "details": {
+      "Composition": "A floral ambery fragrance that embraces the paradoxes of iconic ingredients to reveal new scented sensations.Tilted yet powerfully grounded, displaced yet stable, the bottle forms an aesthetic right angle, sweeping optimistically upward from base to cap.Encapsulating the very essence of Prada, the Prada Paradoxe Eau de Parfum refillable bottle reinvents the most iconic code of the brand.The entire Prada Paradoxe range is refillable, allowing for less packaging material.A single 1.6 oz bottle of Prada Paradoxe helps avoid the use of 40% less materials in total as opposed to three 1.6 oz bottles of Prada Paradoxe. This includes:29% of glass67% of metals46% of plastics39% of cardboard.",
+      "Fragrance Family": "Floral",
+      "Key Notes": "NeroliAmberMusk"
+    },
+    "id": "16275bfd-3c32-4b91-861a-7b6c45ff4b0b"
+  },
+  {
+    "name": "MOD Vanilla Eau de Parfum",
+    "category": "women",
+    "brand": "Ariana Grande",
+    "price": "$68.00",
+    "description": "Ariana Grande MOD, the fragrance collection. MOD Vanilla Eau de Parfum is an instantly addicting fragrance opening with dark plum and musk. A touch of gourmand is heightened to a sophisticated level with Orrisand Praline. Vanilla absolute and cocoa unveil its unforgettable signature.",
+    "details": {
+      "Features": "100% VeganCruelty FreeClean Ingredients",
+      "Fragrance Family": "Gourmand Musk",
+      "Key Notes": "Base - vanilla absolute, cocoa butterTop - pink freesia, juicy plum, creamy musksMiddle - orris butter, white praline, jasmine petals"
+    },
+    "id": "276b7efd-f298-49b2-98c8-3fd271daf2ed"
+  },
+  {
+    "name": "Born in Roma Donna Perfume Gift Set",
+    "category": "women",
+    "brand": "Valentino",
+    "price": "$49.00",
+    "description": "This two-piece gift set features Valentino's Donna Born in Roma Eau de Parfum in a travel spray and mini. A warm and floral perfume blending a trio of fragrant jasmine and sweet vanilla bourbon, ending with an edgy twist of modern and radiant woody scents.",
+    "details": {
+      "Fragrance Family": "Floral",
+      "Key Notes": "Middle - jasmine grandiflorum absoluteTop - blackcurrantBase - bourbon vanilla",
+      "Includes": "Donna Born In Roma Eau de Parfum mini, 0.2ozDonna Born In Roma Eau de Parfum, 0.5oz"
+    },
+    "id": "8d66abb7-c0f0-4afe-9ae7-e9a0070a00de"
+  },
+  {
+    "name": "Her Elixir de Parfum",
+    "category": "women",
+    "brand": "Burberry",
+    "price": "$110.00",
+    "description": "Burberry Her Elixir de Parfum: a bold and sensual fragrance for women. An intense addition to the Burberry Her family, Her Elixir de Parfum offers signature fruity gourmand notes alongside a daring burst of dark red berries with jasmine, rounded with sensual and addictive vanilla and amber.",
+    "details": {
+      "Fragrance Family": "Gourmand",
+      "Scent Type": "FruityGourmand",
+      "Key Notes": "Middle - jasmine accordTop - strawberry, blackberry accordBase - vanilla, amber, sandalwood"
+    },
+    "id": "b7d5f6f8-f5c9-4cd3-9ce8-4283582b4892"
+  },
+  {
+    "name": "CHANCE Eau de Parfum Spray",
+    "category": "women",
+    "brand": "CHANEL",
+    "price": "$138.00",
+    "description": "Unpredictable, in perpetual movement, CHANEL CHANCE Eau de Parfum is an unexpected floral fragrance that sweeps you into a whirlwind of happiness and fantasy.",
+    "details": {},
+    "id": "1b5a475c-a685-41d9-9d27-f86d8192740d"
+  },
+  {
+    "name": "Good Girl Eau de Parfum",
+    "category": "women",
+    "brand": "Carolina Herrera",
+    "price": "$122.00",
+    "description": "Carolina Herrera Good Girl Eau de Parfum is the ultimate femme fatale fragrance with sensual jasmine and the seductive tonka bean. It's so good to be bad.",
+    "details": {
+      "Fragrance Family": "Floral",
+      "Key Notes": "Middle - velvet almondBase - tonka bean, cocoa, coffee beanTop - sambac jasmine, tuberose crystal"
+    },
+    "id": "f7d77d6a-e11a-41bd-99ca-1c58a94b625b"
+  },
+  {
+    "name": "Libre Eau de Parfum",
+    "category": "women",
+    "brand": "Yves Saint Laurent",
+    "price": "$95.00",
+    "description": "Libre Eau de Parfum is the women's fragrance of freedom by Yves Saint Laurent, a statement perfume for women who live by their own rules.",
+    "details": {
+      "Features": "A reinvention of the floral perfume, YSL Libre combines lavender essence from France with the sensuality of Moroccan orange blossom, for a unique long-lasting floral fusion complemented by a daring note of musk accord.The sleek bottle is a couture statement featuring a black asymmetric cap like a sexy couture dress, gold chains around the neck that are reminiscent of the iconic YSL bags, completed with the timeless Yves Saint Laurent logo.",
+      "Fragrance Family": "Warm Floral",
+      "Key Notes": "Base - musk accordTop - lavender essenceMiddle - orange blossom"
+    },
+    "id": "3329705a-fab1-442d-8511-f78d22e7a3cc"
+  }
+]
