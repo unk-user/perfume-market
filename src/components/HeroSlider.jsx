@@ -23,7 +23,7 @@ export default function HeroSlider() {
     const intervalId = setInterval(handleAutoplay, 10000); 
 
     return () => clearInterval(intervalId); 
-  }, []);
+  }, [activeSlide]);
 
   return (
     <section className="relative bg-neutral-800 slide-container aspect-[2.5/1]">
