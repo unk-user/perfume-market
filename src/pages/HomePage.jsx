@@ -11,11 +11,9 @@ export default function HomePage() {
         <BrandSlider />
       </section>
       <HeroSlider />
-      <section className="home-product-section section-0 relative px-12 my-2 xl:px-24 overflow-y-auto h-[1000px] bg-amber-600">
-        <HomeProduct product={dataset[0]} position="right" index={0}/>
-      </section>
-      <section className="home-product-section section-1 relative px-12 my-2 xl:px-24 overflow-y-auto h-[1000px] bg-amber-600">
-        <HomeProduct product={dataset[20]} position="left" index={1}/>
+      <section className="home-product-section flex flex-col items-center gap-52 p-12 my-2 xl:p-24 overflow-y-auto bg-amber-600">
+        <HomeProduct product={dataset[0]} position="right" />
+        <HomeProduct product={dataset[20]} position="left" />
       </section>
     </main>
   );
