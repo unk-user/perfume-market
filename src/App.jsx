@@ -4,11 +4,13 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavHeader from './components/NavHeader';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
+ 
+
 
 const App = () => {
   return (
     <Router>
-      <div className='w-screen relative flex-col flex min-h-screen'>
+      <div className='w-full relative flex-col flex min-h-screen'>
         <NavHeader />
         <Routes>
           <Route path="/" element={<HomePage />} />
