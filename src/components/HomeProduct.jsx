@@ -1,10 +1,17 @@
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import { motion } from 'framer-motion';
 
 export default function HomeProduct({ product, position }) {
+  const initial = { opacity: 0, transition: { delay: 2 } };
+  position === 'right' ? (initial.left = 80) : (initial.right = 80);
+
   return (
-    <div
-      className={`home__product__container pos__${position} flex flex-col items-center max-w-[1000px] pb-4 bg-slate-400`}
+    <motion.div
+      className={`home__product__container pos__${position} relative flex flex-col items-center p-4 bg-slate-400`}
+      initial={initial}
+      whileInView={{ opacity: 1, right: 0, left: 0 }}
+      viewport={{ once: true }}
     >
       <div className=" w-1/2 sm:w-[400px]">
         <img
@@ -13,8 +20,16 @@ export default function HomeProduct({ product, position }) {
           loading="lazy"
         />
       </div>
-      <div
-        className={`home__product__text__${position} text-center px max-w-[600px]`}
+      <motion.div
+        className={`home__product__text__${position} relative text-center px max-w-[600px]`}
+        initial={initial}
+        whileInView={{
+          opacity: 1,
+          right: 0,
+          left: 0,
+          transition: { delay: 0.5 },
+        }}
+        viewport={{ once: true }}
       >
         <h3 className="text-4xl mb-2">{product.name}</h3>
         <p className="mb-4">{product.description}</p>
@@ -24,8 +39,8 @@ export default function HomeProduct({ product, position }) {
         >
           Shop Now
         </Link>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 }
 
