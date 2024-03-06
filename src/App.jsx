@@ -9,7 +9,7 @@ import ShopPage from './pages/ShopPage';
 const App = () => {
   return (
     <Router>
-      <div className="w-full relative flex-col flex min-h-screen">
+      <div className="w-full max-md:w-screen relative flex-col flex min-h-screen">
         <NavHeader />
         <Routes>
           <Route path="/" element={<HomePage />} />
