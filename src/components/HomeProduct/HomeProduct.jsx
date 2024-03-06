@@ -34,7 +34,7 @@ export default function HomeProduct({ product, position }) {
         <h3 className="text-4xl mb-2">{product.name}</h3>
         <p className="mb-4">{product.description}</p>
         <Link
-          to={`/product:${product.id}`}
+          to={`shop/products/${product.id}`}
           className=" bg-slate-600 px-4 py-2 rounded-md text-lg text-center"
         >
           Shop Now
