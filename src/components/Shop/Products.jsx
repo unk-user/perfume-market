@@ -5,7 +5,7 @@ export default function Products() {
   const products = data;
 
   return (
-    <div className='grid '>
+    <div className='grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4'>
       {products.map((product) => {
         return <ProductCard key={product.id} product={product} />;
       })}
