@@ -1,4 +1,4 @@
-import dataset from '../data/dataset.json';
+import dataset from '../../data/dataset.json';
 
 export default function BrandSlider() {
   const brands = dataset
