@@ -18,7 +18,7 @@ export default function ProductPage() {
   return (
     <main className="px-12">
       <div className="flex justify-center py-12">
-        <div className="flex flex-col gap-2 sm:flex-row">
+        <div className="flex flex-col gap-2 lg:flex-row">
           <ProductPreview product={product} />
           <ProductDetails product={product} />
         </div>

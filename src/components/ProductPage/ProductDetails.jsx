@@ -21,7 +21,7 @@ export default function ProductDetails({ product }) {
   };
 
   return (
-    <section className="flex flex-col gap-2 py-4 px-6 bg-blue-300 sm:max-w-[400px]">
+    <section className="flex flex-col gap-2 py-4 px-6 bg-blue-300 sm:max-w-[500px]">
       <button
         className=" bg-green-700 w-full h-[40px] text-white self-center"
         onClick={handleClick}
@@ -29,7 +29,7 @@ export default function ProductDetails({ product }) {
         {!cartItem ? <>Add to cart</> : <>Added {cartItem.quantity}</>}
       </button>
       {reachedMax && (
-        <div>
+        <div className=' text-red-700 border-2 p-2 rounded-md border-red-700 bg-opacity-50 bg-red-200'>
           You&apos;ve added the maximum quantity of this perfume to your cart (5
           items)
         </div>
