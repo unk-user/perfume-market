@@ -14,7 +14,7 @@ export default function ProductPreview({ product }) {
         await img.decode(); // Wait until the image is fully loaded
         setLoadedImages((prevLoadedImages) => [...prevLoadedImages, index]);
       } catch (error) {
-        console.error(`Error loading image at index ${index}: ${error}`);
+        return;
       }
     };
 
@@ -27,12 +27,13 @@ export default function ProductPreview({ product }) {
           src={url}
           onClick={() => setActiveSlide(index)}
           alt={product.name}
+          loading="lazy"
         />
       );
     });
 
     setImageElements(elements);
-  }, [product.id]);
+  }, [product.id, product.name]);
 
   const getImageUrls = (productId) => {
     const imageUrls = [];
@@ -44,20 +45,20 @@ export default function ProductPreview({ product }) {
   };
 
   return (
-    <section>
-      <div className="flex flex-col gap-2 w-fit mb-2">
+    <section className="flex bg-gray-300 relative grow-0 sm:max-w-[500px] h-max">
+      <div className="flex flex-col h-fit gap-2 w-1/6 my-2 -left-8 absolute opacity-50 hover:opacity-100 duration-200">
         {imageElements.map((element, index) => (
-          <>
-            {loadedImages.includes(index) && (
-              <div className="w-[50px] hover:cursor-pointer bg-gray-200" key={index}>
-                {element}
-              </div>
-            )}
-          </>
+          <div className="hover:cursor-pointer bg-gray-200" key={index}>
+            {loadedImages.includes(index) && <>{element}</>}
+          </div>
         ))}
       </div>
-      <div>
-        <img src={`../../images/${product.id}.jpg`} alt="" />
+      <div className="overflow-hidden">
+        <img
+          src={`../../images/${product.id}-${activeSlide}.jpg`}
+          loading="lazy"
+          className=" duration-500"
+        />
       </div>
     </section>
   );

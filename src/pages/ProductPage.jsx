@@ -6,7 +6,7 @@ import ProductPreview from '../components/ProductPage/ProductPreview';
 export default function ProductPage() {
   const { productId } = useParams();
   let product = data.find((item) => item.id == productId);
-  
+
   if (!product) {
     return (
       <main>
@@ -16,10 +16,12 @@ export default function ProductPage() {
   }
 
   return (
-    <main className='px-12'>
-      <div className='flex flex-col sm:flex-row'>
-        <ProductPreview product={product}/>
-        <ProductDetails product={product} />
+    <main className="px-12">
+      <div className="flex justify-center py-12">
+        <div className="flex flex-col gap-2 sm:flex-row">
+          <ProductPreview product={product} />
+          <ProductDetails product={product} />
+        </div>
       </div>
       <div>
         <p>More Products</p>
