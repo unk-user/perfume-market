@@ -2,7 +2,7 @@ import Products from "../components/Shop/Products";
 
 export default function ShopPage () {
   return (
-    <main className="xl:px-28 lg:px-16 md:px-2 px-0">
+    <main className="xl:w-[1250px] lg:w-[950px] md:w-[750px] w-[350px] sm:w-[600px] m-auto">
       <Products />
     </main>
   )
