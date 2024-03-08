@@ -52,11 +52,21 @@ export default function CartContextProvider({ children }) {
     setCartState(newCart);
   };
 
+  const setQuantity = (id, quantity) => {
+    const indexInCart = cartState.indexOf(
+      cartState.find((item) => item.id == id)
+    );
+    let updatedCart = cartState;
+    updatedCart[indexInCart].quantity = quantity;
+    setCartState(updatedCart);
+  };
+
   const cartContextValue = {
     cartState,
     addToCart,
     removeFromCart,
     setCartState,
+    setQuantity,
   };
 
   return (
