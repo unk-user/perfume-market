@@ -8,7 +8,7 @@ export default function OrderSum() {
   }, 0);
 
   return (
-    <section className="flex flex-col lg:min-w-[450px] max-sm:text-xs max-md:max-h-[200px] bg-gray-200 px-6 py-8 max-md:py-4 gap-2">
+    <section className="flex flex-col lg:min-w-[450px] max-sm:text-xs max-md:max-h-[200px] bg-gray-200 px-6 py-8 max-md:py-4 gap-2 self-start sticky top-[20px]">
       <h1 className="text-2xl font-semibold mb-6 max-md:mb-2">Order Summary</h1>
       <ul className='flex flex-col gap-2'>
         <li className="flex justify-between">

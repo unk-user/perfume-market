@@ -19,7 +19,7 @@ export default function CartItem({ id, quantity }) {
 
   return (
     <div className="flex p-2 bg-orange-200">
-      <div className="w-[120px] overflow-hidden p-2">
+      <div className="w-[120px] min-w-[120px] overflow-hidden p-2">
         <img
           src={`../../images/${id}-0.jpg`}
           className="w-[120px]"
@@ -27,10 +27,10 @@ export default function CartItem({ id, quantity }) {
           alt={product.name}
         />
       </div>
-      <ul className='grow w-min'>
-        <li className="flex items-end justify-between w-full pr-2">
-          <Link to={`/shop/products/${id}`}>
-            <p className="text-xl font-bold h-fit underline">{product.name}</p>
+      <ul className='grow max-sm:text-sm overflow-hidden'>
+        <li className="flex items-end justify-between pr-2">
+          <Link to={`/shop/products/${id}`} className=' max-sm:max-w-[220px]'>
+            <p className="text-xl max-sm:text-lg font-bold h-fit underline truncate overflow-hidden">{product.name}</p>
           </Link>
           <p className="font-bold">
             {'$' + Number(product.price.slice(1)) * quantity}
@@ -57,7 +57,7 @@ export default function CartItem({ id, quantity }) {
           onClick={() => {
             handleRemove();
           }}
-          className="font-semibold underline hover:cursor-pointer w-fit mt-6"
+          className="font-semibold underline hover:cursor-pointer w-fit mt-2 max-sm:mt-0"
         >
           Remove
         </li>
