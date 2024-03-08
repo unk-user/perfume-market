@@ -1,8 +1,7 @@
 import ProductCard from './ProductCard';
-import data from '../../data/dataset.json';
+import PropTypes from 'prop-types';
 
-export default function Products() {
-  const products = data;
+export default function Products({products}) {
 
   return (
     <section className='grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4'>
@@ -11,4 +10,9 @@ export default function Products() {
       })}
     </section>
   );
+}
+
+
+Products.propTypes = {
+  products: PropTypes.array
 }
