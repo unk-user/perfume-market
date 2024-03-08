@@ -5,10 +5,14 @@ import { useContext } from 'react';
 
 export default function CartItem({ id, quantity }) {
   const product = data.find((item) => item.id === id);
-  const { setCartState, setQuantity } = useContext(cartContext);
+  const { setCartState, setQuantity, removeFromCart } = useContext(cartContext);
 
   const handleQuantity = (e) => {
     setQuantity(id, Number(e.target.value));
+    setCartState((prevState) => [...prevState]);
+  };
+  const handleRemove = () => {
+    removeFromCart(id);
     setCartState((prevState) => [...prevState]);
   };
 
@@ -24,24 +28,31 @@ export default function CartItem({ id, quantity }) {
       </div>
       <ul>
         <li>
-          <p className='text-xl font-bold'>{product.name}</p>
+          <p className="text-xl font-bold">{product.name}</p>
           <p>{'$' + Number(product.price.slice(1)) * quantity}</p>
         </li>
-        <li>
-          {product.category + "'s"}
-        </li>
-        <li>
-          {product.brand}
-        </li>
+        <li>{product.category + "'s"}</li>
+        <li>{product.brand}</li>
         <li>
           <p>Qty:</p>
-          <select name="quantity" onChange={handleQuantity}>
-            <option value="1" selected={quantity == 1}>1</option>
-            <option value="2" selected={quantity == 2}>2</option>
-            <option value="3" selected={quantity == 3}>3</option>
-            <option value="4" selected={quantity == 4}>4</option>
-            <option value="5" selected={quantity == 5}>5</option>
+          <select
+            name="quantity"
+            defaultValue={`${quantity}`}
+            onChange={handleQuantity}
+          >
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
           </select>
+        </li>
+        <li
+          onClick={() => {
+            handleRemove();
+          }}
+        >
+          Remove
         </li>
       </ul>
     </div>

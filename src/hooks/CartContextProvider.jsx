@@ -35,21 +35,8 @@ export default function CartContextProvider({ children }) {
   };
 
   const removeFromCart = (id) => {
-    let product = cartState.find((item) => {
-      item.id == id;
-    });
-    if (!product) {
-      return;
-    }
-    let newCart = cartState;
-    if (product.quantity == 1) {
-      newCart.filter((item) => {
-        return item.id != id;
-      });
-    } else {
-      newCart[newCart.indexOf(product)].quantity - 1;
-    }
-    setCartState(newCart);
+    let updatedCart = cartState.filter((item) => item.id !== id)
+    setCartState(updatedCart);
   };
 
   const setQuantity = (id, quantity) => {
