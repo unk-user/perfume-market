@@ -8,6 +8,7 @@ import ShopPage from './pages/ShopPage';
 import ProductPage from './pages/ProductPage';
 import ScrollToTop from './scrollToTop';
 import CartContextProvider from './hooks/CartContextProvider';
+import CartPage from './pages/CartPage';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="shop" element={<ShopPage />} />
+            <Route path="cart" element={<CartPage />} />
             <Route path="shop/products/:productId" element={<ProductPage />} />
           </Routes>
           <Footer />

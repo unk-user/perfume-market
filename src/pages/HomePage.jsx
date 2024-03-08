@@ -1,6 +1,6 @@
 import BrandSlider from '../components/Hero/BrandSlider';
 import HeroSlider from '../components/Hero/HeroSlider';
-import HomeProduct from '../components/HomeProduct/HomeProduct';
+import HomeProduct from '../components/Home/HomeProduct';
 import dataset from '../data/dataset.json';
 
 export default function HomePage() {

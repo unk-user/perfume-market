@@ -1,6 +1,7 @@
 import Searchbar from './Searchbar';
 import Cart from './Cart';
 import NavLinks from './NavLinks';
+import { Link } from 'react-router-dom';
 
 export default function NavHeader() {
   return (
@@ -10,9 +11,9 @@ export default function NavHeader() {
         <NavLinks />
         <Searchbar />
       </div>
-      <div className="ml-auto">
+      <Link to='cart' className="ml-auto relative w-[50px] justify-between text-center flex items-center">
         <Cart />
-      </div>
+      </Link>
     </header>
   );
 }
