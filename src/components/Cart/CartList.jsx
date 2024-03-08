@@ -6,7 +6,7 @@ export default function CartList() {
   const { cartState } = useContext(cartContext);
 
   return (
-    <ul>
+    <ul className='flex flex-col gap-2 lg:w-[800px]'>
     {cartState.map((product) => {
       return (
         <li key={product.id}>
