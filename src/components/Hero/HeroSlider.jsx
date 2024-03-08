@@ -26,13 +26,13 @@ export default function HeroSlider() {
   }, [activeSlide]);
 
   return (
-    <section className="relative bg-neutral-800 slide-container w-full h-[600px]">
+    <section className="hero__slider relative slide-container w-full h-[600px]">
       <IoIosArrowDropleft
-        className="absolute left-0 z-10 slider-arrow max-md:w-[50px]"
+        className="absolute hover:text-gray-600 hover:text-opacity-50 left-0 z-10 slider-arrow max-md:w-[50px]"
         onClick={handlePrevSlide}
       />
       <IoIosArrowDropright
-        className="absolute right-0 z-10 slider-arrow max-md:w-[50px]"
+        className="absolute hover:text-gray-600 hover:text-opacity-50 right-0 z-10 slider-arrow max-md:w-[50px]"
         onClick={handleNextSlide}
       />
       {sliderImages.map((slide, index) => {

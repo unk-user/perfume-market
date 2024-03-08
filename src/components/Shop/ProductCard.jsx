@@ -5,7 +5,7 @@ export default function ProductCard({ product }) {
   return (
     <div className=" w-[240px] max-md:w-[200px] max-sm:w-[160px] my-4 relative left-1/2 -translate-x-1/2">
       <Link to={`/shop/products/${product.id}`}>
-        <div className="img__container h-[300px] max-md:h-[250px] max-sm:h-[200px] relative bg-slate-400 rounded-sm">
+        <div className="img__container h-[300px] max-md:h-[250px] max-sm:h-[200px] relative shadow-md bg-zinc-300 rounded-sm">
           <img
             src={`../../images/${product.id}-0.jpg`}
             alt="product"

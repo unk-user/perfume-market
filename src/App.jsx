@@ -15,7 +15,7 @@ const App = () => {
     <Router>
       <CartContextProvider>
         <ScrollToTop />
-        <div className="w-full max-md:w-screen relative flex-col flex min-h-screen">
+        <div className="w-full max-sm:w-screen bg-gray-200 relative flex-col flex min-h-screen z-0">
           <NavHeader />
           <Routes>
             <Route path="/" element={<HomePage />} />

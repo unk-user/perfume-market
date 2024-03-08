@@ -5,15 +5,15 @@ import dataset from '../data/dataset.json';
 
 export default function HomePage() {
   return (
-    <main className="w-full overflow-hidden">
-      <section className=" bg-orange-400 box-border pb-5">
+    <main className="w-full relative overflow-hidden">
+      <section className=" bg-gray-200 box-border pb-5">
         <h1 className="font-semibold text-7xl max-sm:text-5xl text-center py-12">
           Top Brands
         </h1>
-        <BrandSlider />
+        <BrandSlider className=' z-30'/>
       </section>
-      <HeroSlider />
-      <section className="home-product-section flex flex-col items-center gap-12 box-border overflow-x-hidden p-12 xl:gap-24 xl:p-24 overflow-y-auto bg-amber-600">
+      <HeroSlider/>
+      <section className="home__product__section flex flex-col items-center gap-12 box-border overflow-x-hidden p-12 xl:gap-24 xl:p-24 overflow-y-auto">
         <h1 className="text-7xl font-semibold max-sm:text-5xl text-center my-0">
           Popular Products
         </h1>
