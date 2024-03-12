@@ -16,17 +16,6 @@ This is a perfume market application built using React, Vite, Tailwind CSS, and 
 * **Frontend:** React (with Vite), Tailwind CSS
 * **Data Acquisition:** Web Scraping (implementation details not included due to ethical considerations)
 
-**Project Structure:**
-perfume-market-app/
-├── src/
-│   ├── App.js  # Main application component
-│   ├── components/  # Reusable components (e.g., ProductCard, CartItem)
-│   ├── pages/  # Different app pages (e.g., LandingPage, ShopPage, ProductPage, CartPage)
-│   ├── styles/  # Global and component-specific styles
-│   └── utils/  # Utility functions (e.g., for data fetching, formatting)
-├── public/  # Static assets (e.g., images, fonts)
-├── package.json  # Project dependencies and configurations
-└── README.md  # This file
 **Installation:**
 
 1. Clone the repository: `git clone https://github.com/your-username/perfume-market-app.git`
